@@ -11,6 +11,4 @@ Følgende er sket:
 * Gruppenavn
 * Opsat GitHub, Atom etc.
 * Opsætning af denne logbog
-* Nu prøver jeg haham
-
-
+* Test af GitHub og dets funktioner
