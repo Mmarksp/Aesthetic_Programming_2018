@@ -1,2 +1,2 @@
 # Aesthetic Programming
-The main repository for projects and work throughout the course Aesthetic Programming
+The main repository for work and projects throughout *Aesthetic Programming*
