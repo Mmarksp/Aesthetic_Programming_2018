@@ -12,3 +12,4 @@ Følgende er sket:
 * Opsat GitHub, Atom etc.
 * Opsætning af denne logbog
 * Test af GitHub og dets funktioner
+* Miiig
