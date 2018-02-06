@@ -10,5 +10,7 @@ Mødet i dag er hændt ovenpå første undervisningsgang i Æstetisk Programmeri
 Følgende er sket:
 * Gruppenavn
 * Opsat GitHub, Atom etc.
-* 
-Nu prøver jeg haha
+* Opsætning af denne logbog
+* Nu prøver jeg haham
+
+
