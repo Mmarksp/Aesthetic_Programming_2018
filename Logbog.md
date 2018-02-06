@@ -11,3 +11,4 @@ Følgende er sket:
 * Gruppenavn
 * Opsat GitHub, Atom etc.
 * 
+Nu prøver jeg haha
