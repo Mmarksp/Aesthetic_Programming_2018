@@ -10,4 +10,4 @@ Mødet i dag er hændt ovenpå første undervisningsgang i Æstetisk Programmeri
 Følgende er sket:
 * Gruppenavn
 * Opsat GitHub, Atom etc.
-* 
+* Opsætning af denne logbog
