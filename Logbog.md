@@ -1,5 +1,5 @@
 # Logbog
-**wizards_of_buzz.exe**
+**wizards_of_buzz.exe** :point_left:
 
 
 
