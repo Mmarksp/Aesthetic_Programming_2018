@@ -10,7 +10,7 @@ In this README I present my very first program currently and indefinitely titled
 This URL will take you to said program:
 - https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/84d21a9d/mini_exercises/mini_ex1/index_mini_ex1.html </br>
 
-I am writing this as I am still trying to figure out how this RawGit works. However, the coding is done for this exercise.
+And so the coding is done for this exercise.
 My program was inspired by the code for "textures" as found in the p5.js reference web-page. By using the reference as a baseline, I was able to experiment with the coding in order to seek out new insights.
 
 In one example, I experienced how removing *background()* led to, what I believe are, several layers of the same image being placed in a slightly different spot every time the rotate commands were run through. This leads me to a revelation that perhaps no images are actually deleted from the browser-page every time the draw() commands are run through (which I would otherwise assume), and that perhaps having a *background()* makes it seem that way, because it becomes an obscuring layer on top of the previous images.</br>
