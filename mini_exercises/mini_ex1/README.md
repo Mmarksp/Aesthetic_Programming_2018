@@ -7,7 +7,7 @@
 </br>
 </br>
 In this README I present my very first program currently and indefinitely titled "mini_ex".</br></br>
-These URLs will (probably not) take you to said program:
+This URL will take you to said program:
 - https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/84d21a9d/mini_exercises/mini_ex1/index_mini_ex1.html </br>
 
 I am writing this as I am still trying to figure out how this RawGit works. However, the coding is done for this exercise.
