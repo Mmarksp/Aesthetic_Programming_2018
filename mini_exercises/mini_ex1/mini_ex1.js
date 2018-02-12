@@ -3,7 +3,7 @@ var img2;
 
 function preload() {
   img = loadImage('eye.jpg');
-  img2 = loadImage('yes.jpg');
+  img2 = loadImage('Yes.jpg');
 
 }
 
