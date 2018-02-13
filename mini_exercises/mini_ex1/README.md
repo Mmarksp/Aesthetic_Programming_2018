@@ -2,8 +2,8 @@
 *Mark Staun Poulsen*
 </br>
 </br>
-<img src="https://github.com/Mmarksp/Aesthetic_Programming_2018/blob/master/mini_exercises/mini_ex1/d07324422504970dd3b59f1d92d163c1.jpg" width="400"></br>
-<img src="https://github.com/Mmarksp/Aesthetic_Programming_2018/blob/master/mini_exercises/mini_ex1/0e2fda308e3a8ae0edce4536e3b10f5d.png" width="200">
+<img src="https://github.com/Mmarksp/Aesthetic_Programming_2018/blob/master/mini_exercises/mini_ex1/Images/d07324422504970dd3b59f1d92d163c1.jpg" width="400"></br>
+<img src="https://github.com/Mmarksp/Aesthetic_Programming_2018/blob/master/mini_exercises/mini_ex1/Images/0e2fda308e3a8ae0edce4536e3b10f5d.png" width="200">
 </br>
 </br>
 In this README I present my very first program currently and indefinitely titled "mini_ex".</br></br>

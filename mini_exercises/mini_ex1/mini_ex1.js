@@ -2,8 +2,8 @@ var img;
 var img2;
 
 function preload() {
-  img = loadImage('eye.jpg');
-  img2 = loadImage('Yes.jpg');
+  img = loadImage('Images/eye.jpg');
+  img2 = loadImage('Images/Yes.jpg');
 
 }
 
