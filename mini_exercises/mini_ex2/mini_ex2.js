@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
     noFill();
-    stroke(random(5000));
+    stroke(random(8000));
     strokeWeight(random(10));
     //texture(smiley);
     ellipse(x, y, 40, 40);
