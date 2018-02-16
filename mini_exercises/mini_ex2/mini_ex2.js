@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
     noFill();
-    stroke(random(4000));
+    stroke(random(5000));
     strokeWeight(random(10));
     //texture(smiley);
     ellipse(x, y, 40, 40);
@@ -24,13 +24,13 @@ function draw() {
 
   if (x >= width) {
     speed = -200
-    x = x + random(77)
+    x = x + random(140)
     y = y + random(150)
   } //Adding a bounce effect if it hits right "wall" + assigning a new y-value
 
   if (x <= 0) {
     speed = 200
-    x = x - random(79)
+    x = x - random(140)
     y = y - random(150)
   } //Adding a bounce effect if it hits left "wall" + assigning a new y-value
 
