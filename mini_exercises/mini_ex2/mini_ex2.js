@@ -16,10 +16,10 @@ function setup() {
 
 function draw() {
     noFill();
-    stroke(random(8000));
-    strokeWeight(random(10));
+    stroke(255);
+    strokeWeight(random(3));
     //texture(smiley);
-    ellipse(x, y, 40, 40);
+    ellipse(x, y, 20, 20);
     x = x + speed
 
   if (x >= width) {
