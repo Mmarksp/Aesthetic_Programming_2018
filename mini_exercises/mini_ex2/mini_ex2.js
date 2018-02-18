@@ -1,12 +1,16 @@
 var img;
-var smiley;
+var img2;
+var img3;
+var img4;
 var y = 150;
 var x = 0;
 var speed = 200;
 
 function preload() {
 img = loadImage('Images/Fun.jpg');
-smiley = loadImage('Images/smiley.jpg');
+img2 = loadImage('Images/img2.jpg');
+img3 = loadImage('Images/img3.jpg');
+img4 = loadImage('Images/img4.jpg');
 }
 
 function setup() {
@@ -17,8 +21,7 @@ function setup() {
 function draw() {
     noFill();
     stroke(255);
-    strokeWeight(random(3));
-    //texture(smiley);
+    strokeWeight(random(7));
     ellipse(x, y, 20, 20);
     x = x + speed
 
@@ -41,4 +44,8 @@ function draw() {
   if (y <= 0) {
     y = y + random(400)
   } //If it ends up outside of canvas, bring it back
+
+  img.mousePressed(Image(img)) {
+
+  }
 }
