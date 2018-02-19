@@ -2,12 +2,14 @@
 *Mark Staun Poulsen*
 
 
-![Running Program](Images/FunandSoftware.jpg){:height="70%" width="70%"}
-![The Code](Images/Code.jpg){:height="70%" width="70%"}  
+![Running Program](Images/FunandSoftware.jpg)
+<img src="https://github.com/Mmarksp/Aesthetic_Programming_2018/blob/master/mini_exercises/mini_ex2/Images/Code.jpg" alt="The Code" width="50%" height="50%">
 
 And so mini_ex2 has been completed. Well, not really. I must admit that I have ideas on how to expand on this (which is great), and especially also on how to make it just feel a bit more polished. Away with an odd arrow for instance, bring in the scrolling function perhaps, and also include the entire text and not just five pictures.
 
-Oh, and [click this link to initiate your request](https://rawgit.com/Mmarksp/Aesthetic_Programming_2018/master/mini_exercises/mini_ex2/indexex2.html). Note that you can also use the *mouseIsPressed()* conditional statement to interact with the canvas. Your choice.
+Oh, and [click here to initiate your request](https://rawgit.com/Mmarksp/Aesthetic_Programming_2018/master/mini_exercises/mini_ex2/indexex2.html).  
+Note that you can also use the *mouseIsPressed()* conditional statement to interact with the canvas. Your choice.
+
 
 While it may not be obvious, my program is using a simple shape that is vital for everything that is happening on the screen: The ellipse. I have also used a series of images, drawing from and litterally on Olga Goriunova's notion of fun. I suppose that is also, where the element of fun is included, but I will come back to that.  
 
