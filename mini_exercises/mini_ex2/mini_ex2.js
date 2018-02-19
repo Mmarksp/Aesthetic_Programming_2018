@@ -3,6 +3,7 @@ var img;
 var img2;
 var img3;
 var img4;
+var img5;
 var End;
 var y = 150;
 var x = 0;
@@ -13,6 +14,7 @@ function preload() {
   img2 = loadImage('Images/img2.jpg');
   img3 = loadImage('Images/img3.jpg');
   img4 = loadImage('Images/img4.jpg');
+  img5 = loadImage('Images/img5.jpg');
 }
 
 function setup() {
@@ -49,7 +51,7 @@ function draw() {
   }
   // If it ends up outside of the canvas on the y-axis, I bring it back in
 
-  if (sho == img4) {
+  if (sho == img5) {
     fill(255);
     noStroke();
     beginShape();
@@ -94,11 +96,14 @@ function mousePressed() {
         image(sho, width/2, height/2, 0, 0);
     } else if (sho == img3) {
         sho = img4;
-        image(img4, width/2, height/2, 0, 0);
+        image(sho, width/2, height/2, 0, 0);
     } else if (sho == img4) {
+        sho = img5;
+        image(sho, width/2, height/2, 0, 0);
+    } else if (sho == img5) {
         sho = End;
         End = background(0);
-        print('memory.txt deleted?')
+        print('memory.txt deleted?');
     }
   }
 }
