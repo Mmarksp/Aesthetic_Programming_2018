@@ -9,9 +9,9 @@ And so mini_ex2 has been completed. Well, not really. I must admit that I have i
 
 Oh, and [click here to initiate your request](https://rawgit.com/Mmarksp/Aesthetic_Programming_2018/master/mini_exercises/mini_ex2/indexex2.html).  
 Note that you can also use the *mouseIsPressed()* conditional statement to interact with the canvas. Your choice.
-
-
-  
+</br>
+</br>
+</br>
 While it may not be obvious, my program is using a simple shape that is vital for everything that is happening on the screen: The ellipse. I have also used a series of images, drawing from and litterally on Olga Goriunova's notion of fun. I suppose that is also, where the element of fun is included, but I will come back to that.  
 
 Within my code, you will first notice a lot of variables. They are all essential to my program. The first one, *sho*, is also the most recent variable I implemented. I discovered that I was not able to use the function *mousePressed()* to switch between all of the pictures. The program would only be able to switch between "true" and "false", which led to a cycle of only two loaded pictures, as I had fixed two pictures to those two states, giving no room for the other pictures. To solve this I asked for help, received help, and now I share my insights. Drawing upon the logic of boolean variables, instead of distancing myself from the two fixed states, I was able to construct a variable that would be able to determine my position within the series of images, instead of simply creating a first state (which was my original thinking). Thus, I refer to the code up above.
