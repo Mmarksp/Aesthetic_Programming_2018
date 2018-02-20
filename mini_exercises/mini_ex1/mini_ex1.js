@@ -4,7 +4,6 @@ var img2;
 function preload() {
   img = loadImage('Images/eye.jpg');
   img2 = loadImage('Images/Yes.jpg');
-
 }
 
 function setup() {
