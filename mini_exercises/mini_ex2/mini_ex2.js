@@ -1,27 +1,21 @@
-var sho;
-var img;
-var img2;
-var img3;
-var img4;
-var img5;
-var End;
+var sho = [];
+index = 0;
 var y = 150;
 var x = 0;
 var speed = 400;
 
 function preload() {
-  img = loadImage('Images/Fun.jpg');
-  img2 = loadImage('Images/img2.jpg');
-  img3 = loadImage('Images/img3.jpg');
-  img4 = loadImage('Images/img4.jpg');
-  img5 = loadImage('Images/img5.jpg');
+  sho[0] = loadImage('Images/Fun.jpg');
+  sho[1] = loadImage('Images/img2.jpg');
+  sho[2] = loadImage('Images/img3.jpg');
+  sho[3] = loadImage('Images/img4.jpg');
+  sho[4] = loadImage('Images/img5.jpg');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
-  sho = img;
-  image(sho, width/2, height/2, 0, 0);
+  image(sho[index], width/2, height/2, 0, 0);
 }
 // Setting up the environment. With "Mode"(CENTER) the image is drawn from its center
 
@@ -51,7 +45,7 @@ function draw() {
   }
   // If it ends up outside of the canvas on the y-axis, I bring it back in
 
-  if (sho == img5) {
+  if (sho[4]) {
     fill(255);
     noStroke();
     beginShape();
@@ -88,7 +82,11 @@ function draw() {
 
 function mousePressed() {
   if (mouseX >= 1190 && mouseX <= 1220 && mouseY >= 450 && mouseY <= 510) {
-    if (sho == img) {
+    if (index < sho.length) {
+    index++;
+    image(sho[index], width/2, height/2, 0, 0);
+  }
+    /*if (sho == img) {
         sho = img2;
         image(sho, width/2, height/2, 0, 0);
     } else if (sho == img2) {
@@ -103,8 +101,8 @@ function mousePressed() {
     } else if (sho == img5) {
         sho = End;
         End = background(0);
-        print('memory.txt deleted?');
-    }
+        print('memory.txt deleted?');*/
+
   }
 }
 /* Previous arrow shape has become clickable.
