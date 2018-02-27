@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  //background(0);
+  //ackground(0);
   rotateY(frameCount * 0.001);
   rotateZ(frameCount * 0.001);
   texture(img2)
