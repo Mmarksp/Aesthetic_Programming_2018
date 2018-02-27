@@ -7,7 +7,7 @@
 ![Running Program](Images/3.jpg)
 ![Running Program](Images/4.jpg)
 
-[Enjoy!](https://rawgit.com/Mmarksp/Aesthetic_Programming_2018/master/mini_exercises/mini_ex3/mini_ex3_index.html) Use the mouse to skip to a new shape.
+[Enjoy!](https://rawgit.com/Mmarksp/Aesthetic_Programming_2018/master/mini_exercises/mini_ex3/mini_ex3_index.html) Use the mouse to skip to a new shape. Looks very good on my phone as well (I think screen size matters a lot though). With that device you just tap the screen.
 
 ## skip this
 Phew. Not a very academic term, but it had it coming. To put my week into perspective, I spent the friday session of "Shut Up and Code" staring at my screen, trying out corrections, ideas and intense walkthroughs of my browser console in order to just get started on the assignment. I left the class that having made no progress. I had made progress in learning about coding. Or so I thought. Nah, hammering my head against a wall this weekend, now writing this message at 01:23 after having finished the program, I can say that I have indeed learned a lot.
