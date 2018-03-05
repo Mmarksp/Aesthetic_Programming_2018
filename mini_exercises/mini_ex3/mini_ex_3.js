@@ -16,7 +16,7 @@ var ArcO;         //Bottom: See their use in setup
 
 function setup() {
 createCanvas(windowWidth, windowHeight);
-background(0);
+background(255);
 angleMode(DEGREES);
 r = random(0,255);
 g = random(0,255);
