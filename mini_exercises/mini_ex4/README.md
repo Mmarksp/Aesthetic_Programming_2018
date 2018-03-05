@@ -4,7 +4,7 @@
 
 ![Running Program](Images/see.jpg)
 
-[Hell yea! Just speak up, take down the system!]()  
+[Hell yea! Just speak up, take down the system!](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/9b201f79/mini_exercises/mini_ex4/index4.html)  
 Also... this program makes your computer quite warm. If you have multiple things running, I suggest you close some of them down.
 
 ## My experience with this mini_ex
