@@ -46,6 +46,6 @@ function draw() {
 function microphone_and_colouring() {
   let vol = mic.getLevel();
   let backgroundcolour = color(255);
-  backgroundcolour.setAlpha(map(vol, 0, 0.1, 255, 0)); //By using map, I can take the value of the mic input and control the transparency of the canvas
+  backgroundcolour.setAlpha(map(vol, 0, 1, 255, 0)); //By using map, I can take the value of the mic input and control the transparency of the canvas
   background(backgroundcolour);
 }
