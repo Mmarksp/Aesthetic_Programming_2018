@@ -4,7 +4,7 @@
 
 ![Running Program](Images/spacebattle.jpg)
 
-So this is really not a playable game. Shameful, I know. But not it's 2:23, so this is how it is going to be.
+So this is really not a playable game. Shameful, I know. But now it's 2:23 (now 3:40 sigh), so this is how it is going to be.
 
 You have a brand new spaceship! Try it out. Oh and also - [you really should have hired a qualified helmsman.](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/8e9e773d/mini_exercises/mini_ex5/index_mini_ex5.html) Beware of dangerous space minimalist red squares out to get you.  
 Controls: WASD for movement, left_mouse for shooting
