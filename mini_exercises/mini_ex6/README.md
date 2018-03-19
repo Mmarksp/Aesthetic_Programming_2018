@@ -7,7 +7,7 @@
 ![Squares](Images/Squares.jpg)
 
 
-I introduce you to my generative program. I call it [changing fixations](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/d458cef6/mini_exercises/mini_ex6/index_mini_ex6.htm), so named after the two objects in my program.   
+I introduce you to my generative program. I call it [changing fixations](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/4cedcf45/mini_exercises/mini_ex6/index_mini_ex6.html), so named after the two objects in my program.   
 WARNING: if you are prone to epilepsy you should really not view this.
 
 This peace is generative both while running, but also every time you reload the page. Besides reloading the page, you can toggle between the defined shapes for the objects using X and Z.
