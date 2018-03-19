@@ -58,13 +58,13 @@ class changer {
     for(let j = 0; j < fixations.length; j++) {
       let d = dist(changers[index].x, changers[index].y, fixations[j].pos.x, fixations[j].pos.y)
       if (d < fixations[j].sz) {
-        ellipse(fixations[j].re, fixations[j].gre, fixations[j].blu, changers[index].alph);
+        fill(fixations[j].re, fixations[j].gre, fixations[j].blu, changers[index].alph);
       }
     }
   }
 
   show() {
     noStroke();
-    rect(this.x, this.y, this.sz, this.sz); //Change this to rectangle!!
+    ellipse(this.x, this.y, this.sz, this.sz); //Change this to rectangle!!
   }
 }
