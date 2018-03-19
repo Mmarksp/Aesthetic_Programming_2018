@@ -33,6 +33,7 @@ var chan_alph = random(changers_alpha);
 function setup() {
   createCanvas(windowWidth, windowHeight);
   ellipseMode(RADIUS);
+  rectMode(CENTER);
 
 
   for(let i = 0; i < fix_am; i++) {
