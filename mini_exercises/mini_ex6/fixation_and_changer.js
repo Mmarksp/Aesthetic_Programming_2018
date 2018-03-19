@@ -14,11 +14,15 @@ class fixation { //colour of object, opaqueness, x-position, y-position, size (w
 
   show() {
     fill(this.col, this.alph);
+<<<<<<< HEAD
     if (toggle_fixation == true) { //Boolean variable determining its shape.
       ellipse(this.pos.x, this.pos.y, this.sz, this.sz);
     } else {
       rect(this.pos.x, this.pos.y, this.sz, this.sz);
     }
+=======
+    ellipse(this.pos.x, this.pos.y, this.sz, this.sz); //Change this to rectangle!!
+>>>>>>> f36f0ce94ef7f191f797399256d223d860e5421e
   }
 
   setMovement() { //A vector is defined as force. It has a fixed angle.
@@ -68,10 +72,14 @@ class changer {
 
   show() {
     noStroke();
+<<<<<<< HEAD
     if (toggle_changer == true) {
       rect(this.x, this.y, this.sz, this.sz);
     } else {
       ellipse(this.x, this.y, this.sz, this.sz);
     }
+=======
+    ellipse(this.x, this.y, this.sz, this.sz); //Change this to rectangle!!
+>>>>>>> f36f0ce94ef7f191f797399256d223d860e5421e
   }
 }
