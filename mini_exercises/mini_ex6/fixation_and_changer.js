@@ -16,7 +16,7 @@ class fixation {
 
   show() {
     fill(this.col, this.alph);
-    rect(this.pos.x, this.pos.y, this.sz, this.sz); //Change this to rectangle!!
+    ellipse(this.pos.x, this.pos.y, this.sz, this.sz); //Change this to rectangle!!
   }
 
   setMovement() {
@@ -58,7 +58,7 @@ class changer {
     for(let j = 0; j < fixations.length; j++) {
       let d = dist(changers[index].x, changers[index].y, fixations[j].pos.x, fixations[j].pos.y)
       if (d < fixations[j].sz) {
-        fill(fixations[j].re, fixations[j].gre, fixations[j].blu, changers[index].alph);
+        ellipse(fixations[j].re, fixations[j].gre, fixations[j].blu, changers[index].alph);
       }
     }
   }
