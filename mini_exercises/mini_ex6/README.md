@@ -3,7 +3,8 @@
 
 <img src="Images/InBetween.jpg" width="400"> <img src="Images/Circles.jpg" width="400"> <img src="Images/Squares.jpg" width="400"> <img src="Images/Colors.jpg" height="261" width="400">
 
-I introduce you to my generative program. I call it [changing fixations](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/cc554425/mini_exercises/mini_ex6/index_mini_ex6.html), so named after the two objects in my program.   
+I introduce you to my generative program. I call it [changing fixations](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/cc554425/mini_exercises/mini_ex6/index_mini_ex6.html), so named after the two objects in my program.
+I really recommend listening to [this](https://www.youtube.com/watch?v=xYtWu1uPfa8), while viewing it. It complements the work a lot, and collectively they give it a direction that could - if I intended it to be - constitute an artwork. Maybe it is anyways? I really like it with this song in the background. Note that it only really complements the visuals in the crowded and/or active constellations of objects
 WARNING: lots of bright and very quickly changing colours in my program.
 
 This piece is generative both while running, but also every time you reload the page. Besides reloading the page, you can toggle between the defined shapes for the objects using X and Z.
