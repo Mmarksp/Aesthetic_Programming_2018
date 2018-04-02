@@ -8,7 +8,7 @@ Frederik la Cour and I have created a text-focused program. It is an homage to t
 
 Warning: lots of very fast changes in brightness and colours.
 
-Our program comes in different variations, though the one you should concern yourself with is [this one](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/6cc44ed0/mini_exercises/mini_ex7/index_mini_ex7.html). I have taken the liberty to add the others in the repository, because I love variations, and because I think they also show some of our progress building the program. However, currently the program does not work with RawGit. You can view it in video format right [here]().
+Our program comes in different variations, though the one you should concern yourself with is [this one](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/6cc44ed0/mini_exercises/mini_ex7/index_mini_ex7.html). I have taken the liberty to add the others in the repository, because I love variations, and because I think they also show some of our progress building the program. However, currently the program does not work with RawGit. You can view it in video format right [here](https://www.youtube.com/watch?v=DNHUZUXL3N4&feature=youtu.be). In the video the code is running slower, I think. I have added a [link](https://gyazo.com/4d87f79d17cc081f139297213fc9ee7b) that should take you to a gif version, where it runs in the proper speed. Perhaps downloading the code and opening it with a text editor will bring it to the right speed. 
 
 There is no interaction with the program other than reloading the page.
 
