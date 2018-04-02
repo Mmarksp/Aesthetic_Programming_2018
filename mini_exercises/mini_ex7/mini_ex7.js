@@ -1,11 +1,11 @@
-var txt, data;      //variabler: txt bliver en array, words er objekter, j er increment og cycleNum er modolu
-var two_alpha = true;
+var txt; //text file
+var two_alpha = true; //There are two alpha values. It switches between by switching the boolean value from true to false and to true again.
 var fonts = [];
-var words = [];
-var j = 0;
-var cycleNum = 8;
+var words = [];   //The array containing an object that further containts txt-variable.
+var j = 0; //an increment value. Used to go to the next object in words-array.
+var cycleNum = 8; //Used with modulo. Basically, every multiple of 8 will trigger an event.
 
-var freak, fft, peakDetect;
+var freak, fft, peakDetect; //var for sound file.
 
 function preload() {
   txt = loadStrings("words.txt");
@@ -54,20 +54,18 @@ function setup() {
   frameRate(60);
 
   for(let i = 0; i < txt.length; i++) {
-    let col = color(random(0, 255), random(0, 255), random(0, 255)); //startvaerdi for farve. Den aendrer sig laengere nede.
-    words[i] = new ord(txt[i], 125, random(fonts), col, width/10, height/4);  // Det er width/2 og height/2 som skal indstilles til musikken
-  } //Alle arrayenheder fra word.txt bliver transformeret til et objekt med argumenter for det enkelte objekt.
+    let col = color(random(0, 255), random(0, 255), random(0, 255));
+    words[i] = new ord(txt[i], 125, random(fonts), col, width/10, height/4);
+  } //First I load all of the object and assign a specific colour, font andc text piece for every object. The amount of objects is based on the amount of lines in the txt-file.
 
   fft = new p5.FFT(0.1,64);
   peakDetect = new p5.PeakDetect(120, 540, 0.1, 20);
-
 
   freak.setVolume(0.3);
   freak.play();
 }
 
 function draw() {
-  //spectrum analyzer code
     var spectrum = fft.analyze();
       for (var i = 0; i< spectrum.length; i++){
         var x = map(i, 0, spectrum.length, 0, width);
@@ -75,14 +73,14 @@ function draw() {
     }
 
     words[j].display();
-    words[j].fixTimeLoop(cycleNum); //Callback med variabel. FixTimeLoop er alle funktioner, der er afhaengige af modolu.
+    words[j].fixTimeLoop(cycleNum);
 }
 
 
 
 class ord {
-  constructor(text, textSz, font, col, x, y) { //Vi lader alpha staa, hvis du vil bruge den til musikken. Ellers cutter vi den ud.
-    this.pos = new createVector(x, y); //Har ikke nogen anden betydning. Huk at henvise med "this/word[i]".pos.x/y.
+  constructor(text, textSz, font, col, x, y) {
+    this.pos = new createVector(x, y);
     this.text = text;
     this.textSz = textSz;
     this.font = font;
@@ -90,7 +88,7 @@ class ord {
   }
 
   display() {
-    var backcol = 0;
+    var backcol = 0; //Detects peak in frequency. For every detection change bg-colour to white.
     fft.analyze();
     peakDetect.update(fft);
     if (peakDetect.isDetected) {
@@ -100,7 +98,7 @@ class ord {
     }
 
       background(backcol);
-      if (two_alpha) {
+      if (two_alpha) { //For every frame switch the value of the boolean variable. This causes a flicker effect.
         this.col.setAlpha(255);
         two_alpha = false
       } else if (!two_alpha) {
@@ -114,10 +112,10 @@ class ord {
       text(this.text, this.pos.x, this.pos.y, width/1.2, height/1.2);
   }
 
-  fixTimeLoop(num) { //NO TOUCH. Aaah. Hvis du vil have noget slaaet sammen med oscillationen, saa put det ind her. Den koeres igennem draw.
+  fixTimeLoop(num) { //Determines a cycle, which within the frameCount increases and eventually hits multiples of 8. This causes an increase in J, which then switches to the next object aka the next sentence in the text file.
     let n = frameCount*2 % num;
     if (n == 0) {
-      j++ //Det er random tekst. Den koerer i raekkefoelge.
+      j++
     }
   }
 }
