@@ -12,7 +12,7 @@ Our program comes in different variations, though the one you should concern you
 
 There is no interaction with the program other than reloading the page.
 
-## An introduction
+## Technical description
 You are looking at a text-focused program. What does that even mean? It means that we have taken upon ourselves to include text as a major component of the program, and that we became inspired by the intro sequence of the movie, Enter the Void, of which we have tried to replicate in a sense.
 
 The program itself consists first of all of a .txt file. Within this file the entire script for the movie, Enter the Void, is located. There are some alterations on our part. Firstly, we have written essential information in the beginning in order to understand the content of the file. Secondly, we have made multiple line breaks within the file, which is necessary once the file is converted within the main .js file. The rest however, is simply taken from a website and put into the .txt file.
@@ -28,7 +28,7 @@ We have also implemented music, which actually has a functional working on the p
 I think this description covers the essential knowledge in order to understand the functionality of the program. But what is the relation to the literary qualities of code?
 
 
-## language + code
+## Language + code
 It is an inherent condition of code that the content, which is essentially written by the programmer, has to have operational value. Code must work, and writing in programming languages means that the structure and layout of source code has to conform to the conditions for achieving operational working within the computer. Operational semantics of code, the direct value of source code in the workings of the computer, must be written correctly in the source code in order to communicate and initiate any operations deeper within the computer. Essentially, code must be grammatically correct in order to work.
 However, this also means that source code is able to implement those conditions as part of its expressive property. As Cox and Mclean write in the text *Vocable Code*: "programs can be called into action as utterances" (p. 19). Programs are expressive in other ways than the usual instantiations represented as the output of the program, and this aspect is directly tied to the expressive property of code itself. Code can for instance been seen as poesy, a purely literary distinction, and its poetic aesthetics use the operational semantics of code as an expressive quality in its own right.
 I think it is too short sighted to see the boundaries of code and grammar as then expressive limitations: that code cannot bend the grammar and still work, and that this is bad. Instead, those boundaries actually help define the medium of code as a unique and distinct variation on conventional poesy, or as something else entirely. It expands our expectation of what poesy is and can be. Grammar becomes a challenge for the poet - both in getting the program to work, but also in adding an inherent double meaning to it. This second understand of the grammar of the source code is purely directed at the reader of the code and not the computer itself. It has no effect on the operational semantics. The double meaning highlights the programmer's achievement, a subversion of operational boundaries of code, in order to achieve expression.
@@ -38,7 +38,7 @@ Before I continue, I would like to just add that I am not sure if my understandi
 I also remark on this, as I suspect that my specific analysis of the poetic capabilities of our work, will be lacking somewhat.
 
 
-## analysis
+## Analysis
 In our program we have used an entire script as our body of text expressed through the program. The text itself has literary qualities in its own right, but it is not of our making, and thus I will leave it out of my analysis. Instead, we have added expression, not visible in the source code itself, but in the output of the program. This may or may not be wrong in terms of the requirements of literary expression from the code (as understood from reading and attending the lecture), as it may be a condition that the source code itself must be expressive. Our code is actually just a display of the functionality. It is not imbedded with any double meaning, and it only serves the purpose of working within the computer and aiding any reader seeking to understand the functionality of the code.
 The output of the program however is where our contribution is added, and where any expression must be located.
 
