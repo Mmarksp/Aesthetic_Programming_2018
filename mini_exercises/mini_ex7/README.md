@@ -4,7 +4,7 @@ Written by Mark.
 
 <img src="fonts/image.jpg" width="1000">
 
-Frederik la Cour and I have created a text-focused program. It is an homage to the excellent movie [Enter the Void](https://www.youtube.com/watch?v=wNtxgxYY7sI&t=12s), of which you can watch the intro sequence here.
+Frederik la Cour and I have created a text-focused program. It is an homage to the excellent movie [Enter the Void](https://www.youtube.com/watch?v=wNtxgxYY7sI&t=12s), of which intro sequence you can watch here.
 
 Warning: lots of very fast changes in brightness and colours.
 
