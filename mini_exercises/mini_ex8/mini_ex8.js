@@ -41,11 +41,11 @@ function getRandom() {
 
 function askGiphy() {
   for(i = 0; i < 6; i++) { //The six random words are then used here to get six completely different JSON-files.
-    data[i] = loadJSON("http://api.giphy.com/v1/gifs/search?q=" + word[i] + "&api_key=dc6zaTOxFJmzC&limit=25", gotData); //The callback function makes it so that gotData will run for every iteration of the loop right after this line here.
+    data[i] = loadJSON("http://api.giphy.com/v1/gifs/search?q=" + word[i] + "&api_key=o241m8ypKE6Wxx7rfvRENZ2lKjHQ3MSs", gotData); //The callback function makes it so that gotData will run for every iteration of the loop right after this line here.
   }
 }
 
 function gotData(data) {
-  let number = floor(random(0, 25)); //The JSON-file contains 25 possible gifs. As one file is loaded, the program will use a random number to pick one gif out.
+  let number = floor(random(0, 25)); //The JSON-file contains 25 possible gifs. As one file is loaded, the program will use a random number to pick one gif out. By adding &limit= I can change the amount of gifs within the loaded JSON to something lower or possibly something higher, even though 25 is Giphy's default.
   createImg(data.data[number].images.fixed_width_downsampled.url); //The gif is then displayed. fixed_width_downsampled was the only option we deemed was workable for our program.
 }
