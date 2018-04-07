@@ -41,7 +41,7 @@ function getRandom() {
 
 function askGiphy() {
   for(i = 0; i < 6; i++) { //The six random words are then used here to get six completely different JSON-files.
-    data[i] = loadJSON("http://api.giphy.com/v1/gifs/search?q=" + word[i] + "&api_key=o241m8ypKE6Wxx7rfvRENZ2lKjHQ3MSs", gotData, "jsonp"); //The callback function makes it so that gotData will run for every iteration of the loop right after this line here.
+    data[i] = loadJSON("https://api.giphy.com/v1/gifs/search?q=" + word[i] + "&api_key=o241m8ypKE6Wxx7rfvRENZ2lKjHQ3MSs", gotData); //The callback function makes it so that gotData will run for every iteration of the loop right after this line here.
   }
 }
 
