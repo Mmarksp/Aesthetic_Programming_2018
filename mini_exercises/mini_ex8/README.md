@@ -2,7 +2,7 @@
 *Mark Staun Poulsen, Frederik la Cour and Martin Hansen*  
 Written by Mark.
 
-<img src="images/GiphyCulture.jpg" width="1000">
+<img src="Images/GiphyCulture.jpg" width="1000">
 
 Martin, Frederik an I have created a program that actively and continuously uses an API. The API in question is Giphy's API: a large online service for distribution of gif-files.
 You can experience it [here](https://cdn.rawgit.com/Mmarksp/Aesthetic_Programming_2018/fc238976/mini_exercises/mini_ex8/index_mini_ex8.html).
