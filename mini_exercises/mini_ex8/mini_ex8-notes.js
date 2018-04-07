@@ -49,3 +49,38 @@ function gotData(data) {
   let number = floor(random(0, 25)); //The JSON-file contains 25 possible gifs. As one file is loaded, the program will use a random number to pick one gif out.
   createImg(data.data[number].images.fixed_width_downsampled.url); //The gif is then displayed. fixed_width_downsampled was the only option we deemed was workable for our program.
 }
+
+
+
+// var xoff = 0.0; noise variable
+
+// function textDisplay() {
+//     textSize(46);
+//     text(word[i], pos.x, pos.y);
+// }
+
+
+
+// function draw() {
+//   for(let i = 0; i < gifs.length; i++) {
+//     xoff = xoff + 0.01;
+//     let nX = noise(xoff)*width;
+//     let nY = noise(xoff)*height;
+//     gifs[i].position(nX, nY);
+//   }
+// }
+
+
+//                    we have chosen not to use objects for this program,
+//                      because it conflicted with the way gif function
+// class glitch {
+//   constructor(gif, x, y, alpha) {
+//     this.gif = gif;
+//     this.pos = new createVector(x, y)
+//     this.alpha = alpha;
+//   }
+//
+//   display() {
+//     image(this.gif, this.pos.x, this.pos.y); //Erstat med Image
+//   }
+// }
