@@ -3,7 +3,7 @@
 
 <img src="Flowchart.jpg" width="1000">
 
-For the individual work with one of my own previous mini_ex assignments, I have chosen the most technically complex one: [mini_ex5](https://github.com/Mmarksp/Aesthetic_Programming_2018/tree/master/mini_exercises/mini_ex5) (the one that never worked properly).
+For the individual work with one of my own previous mini_ex assignments, I have chosen the most technically complex one: [mini_ex5](https://github.com/Mmarksp/Aesthetic_Programming_2018/tree/master/mini_exercises/mini_ex5) (the one that never worked properly). Do open the picture in another tab to be able to zoom in.
 
 I have not drawn this flowchart so as to be conceptually easy to grasp. Rather I have attempted to recreate a flowchart showing an in-depth representation of the workings of the algorithms within my program. Of course, this representation is not actually related to the mini_ex5 specifically. Rather, it is a representation of my own conceptual understanding of mini_ex5. This means that I, for instance, do not write more about a function such as createCanvas, because I simply do not know how that function works besides resulting in a created canvas. My understanding is quite limited, especially when it comes to the actual workings of a computer, but in my flowchart there is still a logic at play in the transitions from one function to another function, and in the dependencies of other functions having executed before a function is run. I think I have attempted to capture this rather extensively.
 
